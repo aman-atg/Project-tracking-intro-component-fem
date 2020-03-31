@@ -11,7 +11,7 @@ const Navbar = () => {
           <li>Product</li>
           <li>Features</li>
           <li>Pricing</li>
-          <li className="dot">.</li>
+          <li className="dot">●</li>
           <li className="login">Login</li>
         </span>
       </nav>
