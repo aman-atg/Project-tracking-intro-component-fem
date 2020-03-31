@@ -1,6 +1,14 @@
+.app {
+  display: grid;
+  grid-template-columns: 0.25fr 2fr;
+  grid-template-areas:
+    " ... Navbar "
+    " ... Header";
+}
+
 .design {
   top: -50px;
-  left: 43vw;
+  left: 48vw;
   height: 43rem;
   width: 59%;
   position: absolute;
