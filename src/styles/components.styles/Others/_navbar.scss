@@ -1,0 +1,19 @@
+.navbar nav,
+nav span {
+  display: flex;
+  flex-flow: nowrap row;
+}
+nav li {
+  font-family: $head-ff;
+  font-weight: $bold-wt;
+  text-transform: uppercase;
+  margin-left: 4.25rem;
+}
+nav {
+  margin-top: 10vh;
+  justify-content: space-between;
+  padding-right: 9.5%;
+  .login {
+    color: $Grayish-Blue;
+  }
+}
