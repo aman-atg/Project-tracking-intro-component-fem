@@ -5,12 +5,14 @@ const Header = () => {
     <div className="header">
       <div className="content">
         <h2>
-          <span className="new">New</span> Monograph Dashboard
+          <span className="new">New</span>
+          <span className="other">Monograph Dashboard</span>
         </h2>
         <h1>Powerful Insights into your team</h1>
         <p>Project planning and time tracking for agile teams</p>
         <div className="header_footer">
-          <button>Schedule a Demo </button> <span>to see a preview</span>
+          <button>Schedule a Demo </button>
+          <span className="preview">to see a preview</span>
         </div>
       </div>
       <div className="image">
