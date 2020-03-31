@@ -428,9 +428,19 @@ h2 {
 p {
   margin-bottom: 1.4rem; }
 
+span,
+h2,
+p {
+  font-family: "Barlow"; }
+
+.app {
+  display: grid;
+  grid-template-columns: 0.25fr 2fr;
+  grid-template-areas: " ... Navbar " " ... Header"; }
+
 .design {
   top: -50px;
-  left: 43vw;
+  left: 48vw;
   height: 43rem;
   width: 59%;
   position: absolute;
@@ -447,13 +457,46 @@ nav li {
   font-family: "Barlow Condensed";
   font-weight: 700;
   text-transform: uppercase;
-  margin-left: 4.25rem; }
+  margin-left: 4.25rem;
+  font-size: 1.62rem;
+  letter-spacing: 0.1rem;
+  cursor: pointer; }
+  nav li:hover {
+    text-decoration: underline; }
 
 nav {
   margin-top: 10vh;
+  margin-bottom: 13.5vh;
   justify-content: space-between;
   padding-right: 9.5%; }
-  nav .login {
+  nav .brand {
+    margin-left: 0; }
+  nav .login,
+  nav .dot {
     color: #a0a1ac; }
+
+.navbar {
+  grid-area: Navbar;
+  padding-right: 4.5rem; }
+
+.dot:hover {
+  text-decoration: none; }
+
+.header {
+  grid-area: Header;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto; }
+  .header .content {
+    background-color: rosybrown;
+    margin-top: 45px;
+    margin-right: -13vw; }
+    .header .content h1 {
+      text-transform: uppercase;
+      font-size: 5.8rem; }
+
+.image {
+  position: relative;
+  right: -19.6vw; }
 
 /*# sourceMappingURL=index.css.map */
