@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-family, sans-serif;
+  font-size: $base-font-size;
+}
+
+h1 {
+  font-size: $large-font-size;
+  font-weight: $bold-wt;
+  margin-bottom: $space;
+}
+
+h2 {
+  margin-bottom: $space;
+}
+
+p {
+  margin-bottom: $space;
+}
+ul {
+  list-style: none;
+}
