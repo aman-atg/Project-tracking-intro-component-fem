@@ -5,6 +5,7 @@
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 }
 
 h1 {
+  font-family: $head-ff;
   font-size: $large-font-size;
   font-weight: $bold-wt;
   margin-bottom: $sp-t2;
