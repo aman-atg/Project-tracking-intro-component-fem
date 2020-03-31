@@ -23,8 +23,7 @@ nav {
   .brand {
     margin-left: 0;
   }
-  .login,
-  .dot {
+  .login {
     color: $Grayish-Blue;
   }
 }
@@ -33,6 +32,9 @@ nav {
   padding-right: 4.5rem;
 }
 .dot {
+  color: rgb(200, 205, 209);
+  font-size: 0.8rem;
+  margin-top: 4px;
   &:hover {
     text-decoration: none;
   }
