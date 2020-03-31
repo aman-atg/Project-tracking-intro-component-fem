@@ -8,12 +8,32 @@ nav li {
   font-weight: $bold-wt;
   text-transform: uppercase;
   margin-left: 4.25rem;
+  font-size: $base-font-size * 0.9;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 nav {
   margin-top: 10vh;
+  margin-bottom: 13.5vh;
   justify-content: space-between;
   padding-right: 9.5%;
-  .login {
+  .brand {
+    margin-left: 0;
+  }
+  .login,
+  .dot {
     color: $Grayish-Blue;
+  }
+}
+.navbar {
+  grid-area: Navbar;
+  padding-right: 4.5rem;
+}
+.dot {
+  &:hover {
+    text-decoration: none;
   }
 }
