@@ -2,7 +2,7 @@
 
 // ==== >> Layout << ====
 $mobile-max-width: 37.5rem;
-$desktop-max-width: 128rem;
+$desktop-max-width: 144rem;
 
 // ==== >> Colors << ====
 // Primary
@@ -27,15 +27,12 @@ $medium-wt: 500;
 $bold-wt: 700;
 
 // ==== >> Font-sizes << ====
-$base-font-size: 1.8rem;
-$large-font-size: 2.2rem;
-// $base-font-size: 23px;
-// $large-font-size: 22px;
+$base-font-size: 2rem;
+$large-font-size: 4rem;
 
 // ==== >> Spacing << ====
-$space: 1.4rem;
+$sp-t1: 1rem;
+$sp-t2: 1.4rem;
 $sp: 10rem;
-$ssp: 1rem;
 
 // ==== >> Inputs << ====
-$input-spacing: 1rem;

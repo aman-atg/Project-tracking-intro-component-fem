@@ -15,16 +15,13 @@ body {
 h1 {
   font-size: $large-font-size;
   font-weight: $bold-wt;
-  margin-bottom: $space;
+  margin-bottom: $sp-t2;
 }
 
 h2 {
-  margin-bottom: $space;
+  margin-bottom: $sp-t1;
 }
 
 p {
-  margin-bottom: $space;
-}
-ul {
-  list-style: none;
+  margin-bottom: $sp-t2;
 }
