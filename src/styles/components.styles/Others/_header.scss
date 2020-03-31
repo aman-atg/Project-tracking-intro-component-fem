@@ -1,0 +1,23 @@
+.header {
+  //   margin-top: 43px;
+  //   background-color: pink;
+  grid-area: Header;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: auto;
+  //overflow: hidden;
+  .content {
+    background-color: rosybrown;
+    margin-top: 45px;
+    margin-right: -13vw;
+    h1 {
+      text-transform: uppercase;
+      font-size: $large-font-size * 1.45;
+      //   word-wrap: break-word;
+    }
+  }
+}
+.image {
+  position: relative;
+  right: -19.6vw;
+}
