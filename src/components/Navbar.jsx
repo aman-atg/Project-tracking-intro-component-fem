@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <nav>
-        <li>
+        <li className="brand">
           <img src="/images/logo.svg" alt="Brand Name" />
         </li>
         <span className="left">
