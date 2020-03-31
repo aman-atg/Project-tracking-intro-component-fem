@@ -423,13 +423,13 @@ h1 {
   margin-bottom: 1.4rem; }
 
 h2 {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-family: "Barlow Condensed"; }
 
 p {
   margin-bottom: 1.4rem; }
 
 span,
-h2,
 p {
   font-family: "Barlow"; }
 
@@ -491,12 +491,48 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-row: auto; }
   .header .content {
-    background-color: rosybrown;
     margin-top: 45px;
     margin-right: -13vw; }
-    .header .content h1 {
+    .header .content h2 {
       text-transform: uppercase;
-      font-size: 5.8rem; }
+      font-size: 1.44rem;
+      margin-bottom: 15px; }
+      .header .content h2 .new {
+        background-color: #242942;
+        color: #eef3f6;
+        font-weight: 700;
+        font-family: "Barlow Condensed";
+        padding: 0.25rem 0.9rem;
+        border-radius: 1.2rem;
+        margin-right: 1.1rem; }
+    .header .content .other,
+    .header .content .preview {
+      font-size: 1.26rem;
+      letter-spacing: 0.3rem;
+      color: #a0a1ac;
+      text-transform: uppercase; }
+    .header .content h1 {
+      color: #242942;
+      text-transform: uppercase;
+      font-size: 5.8rem;
+      margin-bottom: 33px; }
+    .header .content p {
+      color: #5b5f71;
+      line-height: 2.5rem;
+      padding-right: 150px;
+      margin-bottom: 60px; }
+    .header .content button {
+      background-color: #ff5c5c;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 1.44rem;
+      font-family: "Barlow Condensed";
+      letter-spacing: 1px;
+      border-style: none;
+      padding: 1.5rem 3.25rem;
+      border-radius: 0.5rem;
+      margin-right: 2rem; }
 
 .image {
   position: relative;

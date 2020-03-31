@@ -22,6 +22,7 @@ h1 {
 
 h2 {
   margin-bottom: $sp-t1;
+  font-family: $head-ff;
 }
 
 p {
@@ -29,7 +30,6 @@ p {
 }
 
 span,
-h2,
 p {
   font-family: $font-family;
 }
