@@ -7,7 +7,7 @@ const Header = () => {
         <h2>
           <span className="new">New</span> Monograph Dashboard
         </h2>
-        <h1>Powerful Insight into your team</h1>
+        <h1>Powerful Insights into your team</h1>
         <p>Project planning and time tracking for agile teams</p>
         <div className="header_footer">
           <button>Schedule a Demo </button> <span>to see a preview</span>
